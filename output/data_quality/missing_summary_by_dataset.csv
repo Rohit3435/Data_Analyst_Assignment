@@ -1,0 +1,7 @@
+dataset,columns_with_missing,total_missing_values,max_missing_percentage
+call_attempts,1,2400,2.0
+calls,1,1827,2.0
+borrowers,2,1509,2.92
+accounts,1,455,1.52
+payments,1,382,1.5
+field_visits,1,250,1.0
