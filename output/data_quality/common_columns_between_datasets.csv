@@ -1,0 +1,154 @@
+dataset_1,dataset_2,common_columns,number_of_common_columns
+account_status_history,accounts,"account_id, borrower_id, status",3
+account_status_history,agent_sessions,,0
+account_status_history,agents,status,1
+account_status_history,borrowers,borrower_id,1
+account_status_history,call_attempts,"account_id, borrower_id, event_at",3
+account_status_history,call_dispositions,"account_id, borrower_id, event_at",3
+account_status_history,calls,"account_id, borrower_id, event_at",3
+account_status_history,campaigns,,0
+account_status_history,complaints,"account_id, borrower_id, event_at, source, status",5
+account_status_history,daily_targeting,"account_id, status",2
+account_status_history,data_dictionary,,0
+account_status_history,field_visits,"account_id, borrower_id, event_at",3
+account_status_history,payments,"account_id, borrower_id, event_at",3
+account_status_history,promises_to_pay,"account_id, borrower_id, event_at, source, status",5
+account_status_history,sms_events,"account_id, borrower_id, event_at",3
+account_status_history,vendor_telephony,status,1
+account_status_history,whatsapp_events,"account_id, borrower_id, event_at",3
+accounts,agent_sessions,timezone,1
+accounts,agents,status,1
+accounts,borrowers,borrower_id,1
+accounts,call_attempts,"account_id, borrower_id",2
+accounts,call_dispositions,"account_id, borrower_id",2
+accounts,calls,"account_id, borrower_id, timezone",3
+accounts,campaigns,,0
+accounts,complaints,"account_id, borrower_id, status",3
+accounts,daily_targeting,"account_id, status",2
+accounts,data_dictionary,,0
+accounts,field_visits,"account_id, borrower_id",2
+accounts,payments,"account_id, borrower_id",2
+accounts,promises_to_pay,"account_id, borrower_id, status",3
+accounts,sms_events,"account_id, borrower_id",2
+accounts,vendor_telephony,"schema_version, status, timezone",3
+accounts,whatsapp_events,"account_id, borrower_id",2
+agent_sessions,agents,agent_id,1
+agent_sessions,borrowers,,0
+agent_sessions,call_attempts,agent_id,1
+agent_sessions,call_dispositions,agent_id,1
+agent_sessions,calls,"agent_id, timezone",2
+agent_sessions,campaigns,channel,1
+agent_sessions,complaints,,0
+agent_sessions,daily_targeting,,0
+agent_sessions,data_dictionary,,0
+agent_sessions,field_visits,agent_id,1
+agent_sessions,payments,,0
+agent_sessions,promises_to_pay,agent_id,1
+agent_sessions,sms_events,,0
+agent_sessions,vendor_telephony,timezone,1
+agent_sessions,whatsapp_events,,0
+agents,borrowers,updated_at,1
+agents,call_attempts,"agent_id, vendor_id",2
+agents,call_dispositions,agent_id,1
+agents,calls,"agent_id, vendor_id",2
+agents,campaigns,,0
+agents,complaints,status,1
+agents,daily_targeting,status,1
+agents,data_dictionary,,0
+agents,field_visits,agent_id,1
+agents,payments,,0
+agents,promises_to_pay,"agent_id, status",2
+agents,sms_events,,0
+agents,vendor_telephony,"status, vendor_id",2
+agents,whatsapp_events,,0
+borrowers,call_attempts,borrower_id,1
+borrowers,call_dispositions,borrower_id,1
+borrowers,calls,borrower_id,1
+borrowers,campaigns,,0
+borrowers,complaints,borrower_id,1
+borrowers,daily_targeting,,0
+borrowers,data_dictionary,,0
+borrowers,field_visits,borrower_id,1
+borrowers,payments,borrower_id,1
+borrowers,promises_to_pay,borrower_id,1
+borrowers,sms_events,borrower_id,1
+borrowers,vendor_telephony,,0
+borrowers,whatsapp_events,borrower_id,1
+call_attempts,call_dispositions,"account_id, agent_id, borrower_id, call_id, event_at",5
+call_attempts,calls,"account_id, agent_id, borrower_id, call_id, event_at, vendor_id",6
+call_attempts,campaigns,,0
+call_attempts,complaints,"account_id, borrower_id, event_at",3
+call_attempts,daily_targeting,account_id,1
+call_attempts,data_dictionary,,0
+call_attempts,field_visits,"account_id, agent_id, borrower_id, event_at",4
+call_attempts,payments,"account_id, borrower_id, event_at",3
+call_attempts,promises_to_pay,"account_id, agent_id, borrower_id, event_at",4
+call_attempts,sms_events,"account_id, borrower_id, event_at",3
+call_attempts,vendor_telephony,vendor_id,1
+call_attempts,whatsapp_events,"account_id, borrower_id, event_at",3
+call_dispositions,calls,"account_id, agent_id, borrower_id, call_id, event_at",5
+call_dispositions,campaigns,,0
+call_dispositions,complaints,"account_id, borrower_id, event_at",3
+call_dispositions,daily_targeting,account_id,1
+call_dispositions,data_dictionary,,0
+call_dispositions,field_visits,"account_id, agent_id, borrower_id, event_at",4
+call_dispositions,payments,"account_id, borrower_id, event_at",3
+call_dispositions,promises_to_pay,"account_id, agent_id, borrower_id, event_at",4
+call_dispositions,sms_events,"account_id, borrower_id, event_at",3
+call_dispositions,vendor_telephony,,0
+call_dispositions,whatsapp_events,"account_id, borrower_id, event_at",3
+calls,campaigns,campaign_id,1
+calls,complaints,"account_id, borrower_id, event_at",3
+calls,daily_targeting,"account_id, campaign_id",2
+calls,data_dictionary,,0
+calls,field_visits,"account_id, agent_id, borrower_id, event_at",4
+calls,payments,"account_id, borrower_id, event_at",3
+calls,promises_to_pay,"account_id, agent_id, borrower_id, event_at",4
+calls,sms_events,"account_id, borrower_id, event_at",3
+calls,vendor_telephony,"timezone, vendor_id",2
+calls,whatsapp_events,"account_id, borrower_id, event_at",3
+campaigns,complaints,,0
+campaigns,daily_targeting,campaign_id,1
+campaigns,data_dictionary,,0
+campaigns,field_visits,,0
+campaigns,payments,,0
+campaigns,promises_to_pay,,0
+campaigns,sms_events,,0
+campaigns,vendor_telephony,,0
+campaigns,whatsapp_events,,0
+complaints,daily_targeting,"account_id, status",2
+complaints,data_dictionary,,0
+complaints,field_visits,"account_id, borrower_id, event_at",3
+complaints,payments,"account_id, borrower_id, event_at",3
+complaints,promises_to_pay,"account_id, borrower_id, event_at, source, status",5
+complaints,sms_events,"account_id, borrower_id, event_at",3
+complaints,vendor_telephony,status,1
+complaints,whatsapp_events,"account_id, borrower_id, event_at",3
+daily_targeting,data_dictionary,,0
+daily_targeting,field_visits,account_id,1
+daily_targeting,payments,account_id,1
+daily_targeting,promises_to_pay,"account_id, status",2
+daily_targeting,sms_events,account_id,1
+daily_targeting,vendor_telephony,status,1
+daily_targeting,whatsapp_events,account_id,1
+data_dictionary,field_visits,,0
+data_dictionary,payments,,0
+data_dictionary,promises_to_pay,,0
+data_dictionary,sms_events,,0
+data_dictionary,vendor_telephony,,0
+data_dictionary,whatsapp_events,,0
+field_visits,payments,"account_id, borrower_id, event_at",3
+field_visits,promises_to_pay,"account_id, agent_id, borrower_id, event_at",4
+field_visits,sms_events,"account_id, borrower_id, event_at",3
+field_visits,vendor_telephony,,0
+field_visits,whatsapp_events,"account_id, borrower_id, event_at",3
+payments,promises_to_pay,"account_id, borrower_id, event_at",3
+payments,sms_events,"account_id, borrower_id, event_at, provider_id",4
+payments,vendor_telephony,,0
+payments,whatsapp_events,"account_id, borrower_id, event_at, provider_id",4
+promises_to_pay,sms_events,"account_id, borrower_id, event_at",3
+promises_to_pay,vendor_telephony,status,1
+promises_to_pay,whatsapp_events,"account_id, borrower_id, event_at",3
+sms_events,vendor_telephony,,0
+sms_events,whatsapp_events,"account_id, borrower_id, event_at, event_type, message_id, provider_id, template_code",7
+vendor_telephony,whatsapp_events,,0
