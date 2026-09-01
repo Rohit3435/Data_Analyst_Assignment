@@ -1,0 +1,18 @@
+dataset,total_rows,unique_accounts,likely_grain
+account_status_history,60000,25999.0,Multiple rows per account
+accounts,30000,30000.0,One row per account
+agent_sessions,15000,,No account_id - inspect separately
+agents,30000,,No account_id - inspect separately
+borrowers,30600,,No account_id - inspect separately
+call_attempts,120000,29451.0,Multiple rows per account
+call_dispositions,35000,20603.0,Multiple rows per account
+calls,91350,28408.0,Multiple rows per account
+campaigns,120,,No account_id - inspect separately
+complaints,8000,7034.0,Multiple rows per account
+daily_targeting,45000,23344.0,Multiple rows per account
+field_visits,25000,16908.0,Multiple rows per account
+payments,25500,16934.0,Multiple rows per account
+promises_to_pay,18000,13532.0,Multiple rows per account
+sms_events,45000,23207.0,Multiple rows per account
+vendor_telephony,15,,No account_id - inspect separately
+whatsapp_events,60600,25924.0,Multiple rows per account
