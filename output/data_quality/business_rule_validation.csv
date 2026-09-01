@@ -1,0 +1,17 @@
+check_name,dataset,issue_count,total_rows,issue_percentage,description
+Potential date sequence issue,account_status_history,30191,60000,50.32,Checks whether event_at occurs after recorded_at.
+Potential date sequence issue,field_visits,24750,24750,100.0,Checks whether event_at occurs after scheduled_at.
+Potential date sequence issue,borrowers,15354,30600,50.18,Checks whether created_at occurs after updated_at.
+Potential date sequence issue,agents,4078,30000,13.59,Checks whether joined_at occurs after updated_at.
+Negative monetary values,accounts.principal_amount,0,30000,0.0,Checks for negative values in monetary-related columns.
+Negative monetary values,accounts.outstanding_amount,0,30000,0.0,Checks for negative values in monetary-related columns.
+Negative monetary values,payments.amount,0,25500,0.0,Checks for negative values in monetary-related columns.
+Negative monetary values,promises_to_pay.promised_amount,0,18000,0.0,Checks for negative values in monetary-related columns.
+Zero or negative amount,accounts.principal_amount,0,30000,0.0,Checks for zero or negative transaction/recovery amounts.
+Zero or negative amount,accounts.outstanding_amount,0,30000,0.0,Checks for zero or negative transaction/recovery amounts.
+Zero or negative amount,payments.amount,0,25500,0.0,Checks for zero or negative transaction/recovery amounts.
+Zero or negative amount,promises_to_pay.promised_amount,0,18000,0.0,Checks for zero or negative transaction/recovery amounts.
+Potential date sequence issue,agent_sessions,0,15000,0.0,Checks whether login_at occurs after logout_at.
+Potential date sequence issue,campaigns,0,120,0.0,Checks whether start_at occurs after end_at.
+Potential date sequence issue,complaints,0,8000,0.0,Checks whether event_at occurs after resolution_at.
+Potential date sequence issue,promises_to_pay,0,18000,0.0,Checks whether event_at occurs after promised_date.

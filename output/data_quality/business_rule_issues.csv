@@ -1,0 +1,5 @@
+check_name,dataset,issue_count,total_rows,issue_percentage,description
+Potential date sequence issue,account_status_history,30191,60000,50.32,Checks whether event_at occurs after recorded_at.
+Potential date sequence issue,field_visits,24750,24750,100.0,Checks whether event_at occurs after scheduled_at.
+Potential date sequence issue,borrowers,15354,30600,50.18,Checks whether created_at occurs after updated_at.
+Potential date sequence issue,agents,4078,30000,13.59,Checks whether joined_at occurs after updated_at.
